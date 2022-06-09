@@ -2,12 +2,12 @@
 <extension version="3.9" type="plugin" group="jatoms" method="upgrade">
 	<name>PLG_JATOMS_DOCUMENTS</name>
 	<author>Atom-S</author>
-	<creationDate>May 2021</creationDate>
-	<copyright>Copyright (c) 2017 - 2020 Atom-S LLC. All rights reserved.</copyright>
+	<creationDate>May 2022</creationDate>
+	<copyright>Copyright (c) 2017 - 2022 Atom-S LLC. All rights reserved.</copyright>
 	<license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>hello@atom-s.com</authorEmail>
 	<authorUrl>https://atom-s.com/</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.0-dev</version>
 	<description>PLG_JATOMS_DOCUMENTS_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<languages folder="language">
