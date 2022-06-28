@@ -70,7 +70,7 @@ class plgJAtomSDocumentsInstallerScript
 		// Check old Joomla
 		if (!class_exists('Joomla\CMS\Version'))
 		{
-			JFactory::getApplication()->enqueueMessage(JText::sprintf('PLG_JATOMS_DESTINATIONS_ERROR_COMPATIBLE_JOOMLA',
+			JFactory::getApplication()->enqueueMessage(JText::sprintf('PLG_JATOMS_DOCUMENTS_ERROR_COMPATIBLE_JOOMLA',
 				$this->minimumJoomla), 'error');
 
 			return false;
@@ -81,7 +81,7 @@ class plgJAtomSDocumentsInstallerScript
 		// Check PHP
 		if (!(version_compare(PHP_VERSION, $this->minimumPhp) >= 0))
 		{
-			$app->enqueueMessage(Text::sprintf('PLG_JATOMS_DESTINATIONS_ERROR_COMPATIBLE_PHP', $this->minimumPhp),
+			$app->enqueueMessage(Text::sprintf('PLG_JATOMS_DOCUMENTS_ERROR_COMPATIBLE_PHP', $this->minimumPhp),
 				'error');
 
 			return false;
@@ -90,7 +90,7 @@ class plgJAtomSDocumentsInstallerScript
 		// Check joomla version
 		if (!(new Version())->isCompatible($this->minimumJoomla))
 		{
-			$app->enqueueMessage(Text::sprintf('PLG_JATOMS_DESTINATIONS_ERROR_COMPATIBLE_JOOMLA', $this->minimumJoomla),
+			$app->enqueueMessage(Text::sprintf('PLG_JATOMS_DOCUMENTS_ERROR_COMPATIBLE_JOOMLA', $this->minimumJoomla),
 				'error');
 
 			return false;
